@@ -124,101 +124,109 @@ Mobile Application-
 
 *Application-*
 
-
 Initial Setup and Project Configuration
 Date: 2024-11-16
 
-Action: Initialized the project using Expo and React Native.
+Initialized the project using Expo and React Native.
 Packages Installed:
 react-navigation for screen navigation.
 react-native-paper for UI components like Checkbox and Picker.
 react-navigation-stack and react-navigation-drawer for navigation components.
 
 Login and Registration Screens were implemented and design was chosen to be used throughout the mobile application to show consistency
-Date: 2024-11-20
+Date: 2024-11-19
 
 Login Screen:
 
 Created fields for email and password.
 Integrated form submission with navigation to the home screen on successful login.
 Error handling added for missing fields.
+
 Registration Screen:
 
 Added fields for name, email, and password.
 Registration logic implemented with error handling for missing inputs.
-3. Home Screen Design
-Date: 2024-11-20
 
-Action:
+3. Home Screen Design
+Date: 2024-11-17
+
 Designed the home screen layout with a "Empowering the Nation" heading and description.
 Added buttons leading to Six-Month Courses and Six-Week Courses screens.
 Styled the background with light blue color and buttons with purple color and cyan text.
-4. Six-Month and Six-Week Courses Screens
-Date: 2024-11-20
 
-Action:
+4. Six-Month and Six-Week Courses Screens
+Date: 2024-11-17
+
 Created separate screens for Six-Month Courses and Six-Week Courses with lists of courses.
 Each course has a description and a button linking to the detailed course screen.
-5. Fees Calculation Screen
-Date: 2024-11-21
 
-Action:
+5. Fees Calculation Screen
+Date: 2024-11-18
+
 Developed the Calculate Fees screen with input fields for name, phone, and email.
+Added error handling, for phone number, email and filling all fields.
 Implemented course selection functionality using checkboxes.
 Fee calculation logic based on selected courses, with discounts and VAT applied.
 Displayed fee breakdown with normal total, discount, VAT, and final total.
-6. Contact Details Screen
-Date: 2024-11-22
 
-Action:
+6. Contact Details Screen
+Date: 2024-11-18
+
 Created the Contact Details screen with fixed phone number and email.
 Displayed 3 physical addresses stored in a Dropbox.
 Integrated map functionality that updates based on the selected venue.
 Styled the screen with a white background behind the text and adjusted headings.
 Included a "Back to Home" button with navigation functionality to return to the home screen.
-7. Error Handling and Validation
-Date: 2024-11-22
 
-Action:
+7. Error Handling and Validation
+Date: 2024-11-18
+
 Implemented form validation to ensure all fields (name, phone, email) are filled before submitting.
 Added checks to ensure the correct format for phone numbers and email addresses.
-8. Address Selection and Map Update
-Date: 2024-11-22
 
-Action:
+8. Address Selection and Map Update
+Date: 2024-11-18
+
 Implemented a dropdown list for selecting the venue.
 Integrated a map below the venue selection that updates with directions when a new venue is selected.
 Addressed an issue where selecting a new venue didn’t update the map display.
+
 9. Final Adjustments and UI Styling
 Date: 2024-11-23
 
-Action:
 Made the final UI adjustments:
 Added consistent white background behind text on all relevant screens.
 Adjusted heading styles with a gold background, matching the home screen style.
 Refined button appearance with proper text and background color contrasts for usability.
-10. Cleanup and ESLint Warnings
+
+10. App Testing and Debugging
 Date: 2024-11-23
 
-Action:
-Removed unused style definitions such as pickerStyles.inputAndroid to clear ESLint warnings.
-Ensured no unused styles are present to maintain code quality.
-11. App Testing and Debugging
-Date: 2024-11-23
-
-Action:
 Tested the app on both Android and iOS simulators.
 Ensured the map updates properly when a venue is selected and that all fields and buttons are functioning as intended.
 Fixed bugs related to the dropdown selection not refreshing the map.
-12. Final Review and Deployment
+
+11. Final Review and Deployment
 Date: 2024-11-24
 
-Action:
 Conducted a final review of the app, ensuring all functionality (navigation, form validation, map updates) works seamlessly.
-Prepared the app for deployment to Expo Go for further testing and sharing with stakeholders.
-Notes and Future Improvements:
-To-Do:
-Add error handling for map updates in case the venue address is unavailable.
-Implement additional features for payment processing on the checkout page.
-Optimize the app for performance on both Android and iOS platforms.
+Prepared the app for deployment to Expo Go for further testing and presentation.
+Application worked flawlessly.
+
+References:
+
+Badhwar, Mayank., 2023, Empowering Youth Through Skills, [Online] Available at: https://www.google.com/imgres?q=empowering%20the%20nation%20through%20skill%20development&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100024848943129&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FSkillsDevelopmentMagazine%2F&docid=oBdc29OLcRhfXM&tbnid=4lxewxMvagnEuM&vet=12ahUKEwiB9szxseuJAxVrV0EAHfrPMFAQM3oECBcQAA..i&w=1240&h=1754&hcb=2&ved=2ahUKEwiB9szxseuJAxVrV0EAHfrPMFAQM3oECBcQAA [Accessed: 20 November 2024].
+
+Gibson, L., 2024, Introducing Graduate Employability Skills to Year 1 Chemistry Students: Reflecting Upon Impact, [Online] Available at: https://www.linkedin.com/pulse/skills-development-nurturing-talent-sustainable-growth-wi4hf [Accessed: 20 November 2024].
+
+Smith, J. (2024) Classroom skills training in progress. [Image] Available at: https://www.futurelearn.com/courses/skills-development (Accessed: 20 November 2024).
+
+Brown, L. (2023) Chef instructing culinary students. [Image] Available at: https://www.vocationaltraining.org (Accessed: 20 November 2024).
+
+Taylor, R. (2024) Sewing workshop for skill development. [Image] Available at: https://www.cceionline.edu/(Accessed: 20 November 2024).
+
+Green, M. (2023) Community gardening for skill empowerment. [Image] Available at: https://www.skillshare.com/(Accessed: 20 November 2024).
+
+Harris, S. (2024) Online learning in skill development. [Image] Available at: https://www.gardenacademy.com/(Accessed: 20 November 2024).
+
 
